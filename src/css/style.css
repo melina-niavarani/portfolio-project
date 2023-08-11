@@ -39,7 +39,7 @@ h2 {
     background-image: url("../images/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     height: 900px;
     width: 100vw;
 }
@@ -78,6 +78,13 @@ h2 {
 }
 footer {
     background: var(--footer-bg);
+}
+.social-media a{
+    margin-inline: 8px;
+}
+.copy-write {
+    font-size: 16px;
+    font-weight: 400;
 }
 
 @media (min-width:993px) and (max-width:1400px){
