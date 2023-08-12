@@ -93,6 +93,12 @@ footer {
     font-size: var(--sm-fs);
     font-weight: 400;
 }
+.git a {
+    color: inherit;
+}
+.git a:hover{
+    color: var(--accent-color)
+}
 
  
 
