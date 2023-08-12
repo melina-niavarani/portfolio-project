@@ -142,6 +142,22 @@ h3 {
     height: 280px;
 }
 
+
+/* ------------Contact---------------- */
+h5 {
+    color: var(--accent-color);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+}
+.contact-info a {
+    font-size: var(--md-fs);
+    font-weight: 400;
+    margin: 0;
+    line-height: 30px;
+    text-decoration: none;
+    color: inherit;
+}
 /* ------------Media Query------------- */
 
 @media (min-width:993px) and (max-width:1400px){
