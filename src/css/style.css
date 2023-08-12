@@ -197,6 +197,9 @@ h5 {
     .social-media a{
         margin-inline: 2px;
     }
+    .camera-img {
+        width: 80%;
+    }
     .copy-write {
         width: 80px;
         text-align: center;
