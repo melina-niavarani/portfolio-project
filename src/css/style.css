@@ -4,8 +4,10 @@ font-family: 'Roboto', sans-serif; */
     --bg-color:  #1B1B1B;
     --black-color: #272142;
     --footer-bg: #282323;
+    --accent-color: #F65282;
     --lg-fs: 24px;
-    --xl-fs: 72px;
+    --xxl-fs: 72px;
+    --xl-fs: 64px;
     --md-fs: 18px;
     --sm-fs: 16px;
 }
@@ -13,7 +15,7 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #ffffff !important;
+    color: #ffffff ;
     font-family: 'Roboto', sans-serif;
 }
 body {
@@ -27,7 +29,7 @@ h1 {
 }
 h2 {
     font-weight: bold;
-    font-size: var(--xl-fs);
+    font-size: var(--xxl-fs);
     line-height: 84px;
     margin-block: 20px;
 }
@@ -95,10 +97,47 @@ footer {
 
 .about-cover {
     height: 782px;
-    width: 700px;
+    width: auto;
     object-fit: cover;
 }
-
+h4 {
+    color: var(--accent-color);
+    font-size: var(--md-fs);
+    font-weight: bold;
+    line-height: 21px;
+}
+h3 {
+    font-size: var(--xl-fs);
+    font-weight: bold;
+    line-height: 75px;
+}
+.description-about {
+    max-width: 560px;
+    font-size: var(--md-fs);
+    font-weight: 400px;
+    line-height: 30;
+}
+.camera-img {
+    max-width: 423px;
+    max-height: 80px;
+}
+.contact-me{
+    width: 200px;
+    padding: 18px 30px 18px 30px;
+    border-radius: 50px;
+    border: none;
+}
+.contact-me a{
+    color: var(--black-color);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.images img{
+   max-height: 280px; 
+}
 
 /* ------------Media Query------------- */
 
@@ -112,7 +151,8 @@ footer {
 @media (max-width:992px) {
     :root {
         --lg-fs: 18px;
-        --xl-fs: 42px;
+        --xxl-fs: 42px;
+        --xl-fs: 32px;
         --md-fs: 14px;
         --sm-fs: 8px;
     }
