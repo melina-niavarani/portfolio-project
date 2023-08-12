@@ -4,6 +4,7 @@ font-family: 'Roboto', sans-serif; */
     --bg-color:  #1B1B1B;
     --black-color: #272142;
     --footer-bg: #282323;
+    --nav-bg:  #202020;
     --accent-color: #F65282;
     --lg-fs: 24px;
     --xxl-fs: 72px;
@@ -34,7 +35,7 @@ h2 {
     margin-block: 20px;
 }
 .navbar {
-    background-color: transparent !important;
+    background-color: var(--nav-bg);
 }
 .nav-item a {
     font-family: 'Roboto';
